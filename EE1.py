@@ -52,7 +52,7 @@ def main():
     x2 = 4*random()+ymin
     x3 = 4*random()+zmin
     x0y0z0 = [round(x1,6), round(x2,6), round(x3,6)]
-    print("x0,y0,z0: ",x0y0z0)
+    print("x10,x20,x30: ",x0y0z0)
     padre = f(x1,x2,x3)
     s = 1
     u = [x1]
@@ -81,7 +81,7 @@ def main():
         w.append(x3)
         
     xfyfzf = [round(x1,6), round(x2,6), round(x3,6)]
-    print("xn,yn,zn: ",xfyfzf)
+    print("x1f,x2f,x3f: ",xfyfzf)
 
     #path(u,v,w)
     evol(u,v,w)
